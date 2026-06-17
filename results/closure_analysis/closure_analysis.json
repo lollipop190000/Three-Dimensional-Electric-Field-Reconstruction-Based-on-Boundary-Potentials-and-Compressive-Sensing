@@ -1,0 +1,284 @@
+{
+  "tau_main": 0.002,
+  "selected_shape_original_grid": {
+    "candidate_id": 211.0,
+    "volume_fraction": 0.4,
+    "eta_tau": 0.39726854891661195,
+    "epsilon_E95": 0.0015864677371287745,
+    "C_omega": 2.4936061381074177,
+    "D_omega_E_over_Erms2_mean": 0.0013234592140097313,
+    "nu_max": 1.6624040920716117,
+    "alpha1": 1.25,
+    "alpha2": 1.15,
+    "p": 4.0,
+    "rotation_z": 0.5235987755982988,
+    "axis_a": 0.5304454749859256,
+    "axis_b": 0.3190833549530721,
+    "axis_c": 0.35907078306739576,
+    "box_Lx": 1.0608909499718513,
+    "box_Ly": 0.6381667099061442,
+    "box_Lz": 0.7181415661347915,
+    "grid_nx": 25.0,
+    "grid_ny": 21.0,
+    "grid_nz": 23.0
+  },
+  "selected_shape_highres_grid": {
+    "grid_nx": 53.0,
+    "grid_ny": 39.0,
+    "grid_nz": 38.0,
+    "epsilon_E95": 5.81610280694164e-05,
+    "E_relative_l2": 3.534970664974536e-05,
+    "local_pass_fraction": 1.0
+  },
+  "tau_sensitivity": [
+    {
+      "tau_E_local": 0.001,
+      "num_feasible": 0.0,
+      "used_fallback": true,
+      "candidate_id": 283.0,
+      "volume_fraction": 0.28,
+      "eta_tau": 0.22234537097833226,
+      "candidate_pass_fraction": 0.7940906106369009,
+      "epsilon_E95": 0.0012800908568637432,
+      "epsilon_E99": 0.001402432358506077,
+      "C_omega": 2.4936061381074173,
+      "D_omega_E_over_Erms2_mean": 0.000981041906117502,
+      "nu_max": 1.6624040920716114,
+      "alpha1": 1.25,
+      "alpha2": 1.15,
+      "p": 4.0,
+      "rotation_z": 0.5235987755982988,
+      "box_Lx": 0.941969319892516,
+      "box_Ly": 0.566630775504575,
+      "box_Lz": 0.63764077038878
+    },
+    {
+      "tau_E_local": 0.002,
+      "num_feasible": 62.0,
+      "used_fallback": false,
+      "candidate_id": 210.0,
+      "volume_fraction": 0.4,
+      "eta_tau": 0.39597722040470135,
+      "candidate_pass_fraction": 0.9899430510117533,
+      "epsilon_E95": 0.001722520608235117,
+      "epsilon_E99": 0.0019423515860878,
+      "C_omega": 2.4936061381074177,
+      "D_omega_E_over_Erms2_mean": 0.0013123740568293408,
+      "nu_max": 1.6624040920716117,
+      "alpha1": 1.25,
+      "alpha2": 1.15,
+      "p": 4.0,
+      "rotation_z": 0.0,
+      "box_Lx": 1.0608909499718513,
+      "box_Ly": 0.6381667099061442,
+      "box_Lz": 0.7181415661347915
+    },
+    {
+      "tau_E_local": 0.005,
+      "num_feasible": 211.0,
+      "used_fallback": false,
+      "candidate_id": 52.0,
+      "volume_fraction": 0.75,
+      "eta_tau": 0.7491010134030729,
+      "candidate_pass_fraction": 0.9988013512040972,
+      "epsilon_E95": 0.003433741904281744,
+      "epsilon_E99": 0.004327944822720054,
+      "C_omega": 1.4961636828644505,
+      "D_omega_E_over_Erms2_mean": 0.002509235259578516,
+      "nu_max": 1.3299232736572892,
+      "alpha1": 1.0,
+      "alpha2": 1.15,
+      "p": 16.0,
+      "rotation_z": 0.0,
+      "box_Lx": 1.1273648589558685,
+      "box_Ly": 0.8476916535610471,
+      "box_Lz": 0.9539241114241964
+    }
+  ],
+  "highres_patch_sweep": [
+    {
+      "patch_y": 12,
+      "patch_z": 12,
+      "num_patch_values": 864,
+      "E_relative_l2": 0.6644881567098088,
+      "epsilon_E95": 0.7930449063413556,
+      "epsilon_E99": 0.8517672714577968,
+      "local_pass_fraction": 0.0,
+      "mean_cosine_similarity": 0.8871052071328804,
+      "E_rms": 0.6676193972255027
+    },
+    {
+      "patch_y": 16,
+      "patch_z": 16,
+      "num_patch_values": 1536,
+      "E_relative_l2": 0.4742121588204738,
+      "epsilon_E95": 0.636089928116979,
+      "epsilon_E99": 0.6945146671493323,
+      "local_pass_fraction": 0.0,
+      "mean_cosine_similarity": 0.9284799560075199,
+      "E_rms": 0.6676193972255027
+    },
+    {
+      "patch_y": 20,
+      "patch_z": 20,
+      "num_patch_values": 2400,
+      "E_relative_l2": 0.31781604536379643,
+      "epsilon_E95": 0.5737167231283157,
+      "epsilon_E99": 0.6259512471585739,
+      "local_pass_fraction": 0.0,
+      "mean_cosine_similarity": 0.964385761302898,
+      "E_rms": 0.6676193972255027
+    },
+    {
+      "patch_y": 24,
+      "patch_z": 24,
+      "num_patch_values": 3456,
+      "E_relative_l2": 0.22225379333470438,
+      "epsilon_E95": 0.5413795245674431,
+      "epsilon_E99": 0.605803380961102,
+      "local_pass_fraction": 0.0,
+      "mean_cosine_similarity": 0.9821758368578434,
+      "E_rms": 0.6676193972255027
+    },
+    {
+      "patch_y": 28,
+      "patch_z": 28,
+      "num_patch_values": 4704,
+      "E_relative_l2": 0.1458436653025853,
+      "epsilon_E95": 0.27727469935814125,
+      "epsilon_E99": 0.3250767918912361,
+      "local_pass_fraction": 0.0,
+      "mean_cosine_similarity": 0.9934967567464809,
+      "E_rms": 0.6676193972255027
+    },
+    {
+      "patch_y": 32,
+      "patch_z": 32,
+      "num_patch_values": 6144,
+      "E_relative_l2": 0.17627783444746348,
+      "epsilon_E95": 0.29347204663907206,
+      "epsilon_E99": 0.32847656415202375,
+      "local_pass_fraction": 0.0,
+      "mean_cosine_similarity": 0.99321588567819,
+      "E_rms": 0.6676193972255027
+    },
+    {
+      "patch_y": 36,
+      "patch_z": 36,
+      "num_patch_values": 7776,
+      "E_relative_l2": 0.19489065319878857,
+      "epsilon_E95": 0.2881078535215074,
+      "epsilon_E99": 0.33281100458883806,
+      "local_pass_fraction": 0.0,
+      "mean_cosine_similarity": 0.993255483603208,
+      "E_rms": 0.6676193972255027
+    }
+  ],
+  "highres_patch_N_tau": NaN,
+  "highres_patch_shape_tau": null,
+  "highres_noise": {
+    "noise_rms_fraction": 0.001,
+    "baseline_epsilon_E95": 7.028386632868268e-05,
+    "noisy_epsilon_E95_mean": 0.05930174648421014,
+    "G_noise_E95": 59.23146261788146,
+    "baseline_E_relative_l2": 4.090675331090426e-05,
+    "noisy_E_relative_l2_mean": 0.04969427203888819,
+    "G_noise_E_l2": 49.65336528557728
+  },
+  "voltage_quantization": [
+    {
+      "case": "8-bit",
+      "bits": 8.0,
+      "voltage_step": 0.0037527271631520726,
+      "epsilon_E95": 0.029699595030684298,
+      "E_relative_l2": 0.013167833920430418,
+      "local_pass_fraction": 0.738991114256507
+    },
+    {
+      "case": "10-bit",
+      "bits": 10.0,
+      "voltage_step": 0.0009354305245393729,
+      "epsilon_E95": 0.0075690148072298895,
+      "E_relative_l2": 0.0033248496295242265,
+      "local_pass_fraction": 0.8609538413147755
+    },
+    {
+      "case": "12-bit",
+      "bits": 12.0,
+      "voltage_step": 0.00023368630686294956,
+      "epsilon_E95": 0.0019562525776637817,
+      "E_relative_l2": 0.0008202347728423361,
+      "local_pass_fraction": 0.9511087520641661
+    },
+    {
+      "case": "10 mV step",
+      "bits": NaN,
+      "voltage_step": 0.01,
+      "epsilon_E95": 0.08298305169554275,
+      "E_relative_l2": 0.03471392246091567,
+      "local_pass_fraction": 0.6119171188173311
+    }
+  ],
+  "ensemble_validation": [
+    {
+      "model": "base-12",
+      "epsilon_E95": 5.81610280694164e-05,
+      "E_relative_l2": 3.534970664974536e-05,
+      "local_pass_fraction": 1.0,
+      "mean_cosine_similarity": 0.9999999995738684
+    },
+    {
+      "model": "seed-21",
+      "epsilon_E95": 0.0005214726033812607,
+      "E_relative_l2": 0.00032307312994837286,
+      "local_pass_fraction": 1.0,
+      "mean_cosine_similarity": 0.9999999494410043
+    },
+    {
+      "model": "seed-35",
+      "epsilon_E95": 0.0004272887859792682,
+      "E_relative_l2": 0.00028500039622359873,
+      "local_pass_fraction": 1.0,
+      "mean_cosine_similarity": 0.999999936051103
+    },
+    {
+      "model": "seed-47",
+      "epsilon_E95": 0.0003881500282991456,
+      "E_relative_l2": 0.000308830091194106,
+      "local_pass_fraction": 1.0,
+      "mean_cosine_similarity": 0.9999999462871492
+    },
+    {
+      "model": "seed-63",
+      "epsilon_E95": 0.00038279465883548947,
+      "E_relative_l2": 0.0002119095319014735,
+      "local_pass_fraction": 1.0,
+      "mean_cosine_similarity": 0.9999999760182894
+    },
+    {
+      "model": "seed-88",
+      "epsilon_E95": 0.00048047925828957573,
+      "E_relative_l2": 0.00030147154240223184,
+      "local_pass_fraction": 1.0,
+      "mean_cosine_similarity": 0.9999999522917533
+    }
+  ],
+  "verification": {
+    "target_div_rms": 0.00016056426335547407,
+    "target_curl_rms": 0.0001032878896915736,
+    "reconstructed_laplace_rms": 0.00053461629635926,
+    "target_div_rms_normalized": 0.00025517363940455874,
+    "target_curl_rms_normalized": 0.00016414827414407268,
+    "reconstructed_laplace_rms_normalized": 0.0044136284671138564,
+    "max_principle_violation": 0.0,
+    "mean_cosine_similarity": 0.9999999995738684,
+    "epsilon_E95": 5.81610280694164e-05,
+    "E_relative_l2": 3.534970664974536e-05
+  },
+  "figures": {
+    "highres_patch_sweep": "C:\\Users\\lolli\\Desktop\\2-1과제연구\\final_report_outputs\\closure_analysis\\highres_patch_sweep.png",
+    "tau_sensitivity": "C:\\Users\\lolli\\Desktop\\2-1과제연구\\final_report_outputs\\closure_analysis\\tau_sensitivity.png",
+    "voltage_quantization": "C:\\Users\\lolli\\Desktop\\2-1과제연구\\final_report_outputs\\closure_analysis\\voltage_quantization.png",
+    "ensemble_validation": "C:\\Users\\lolli\\Desktop\\2-1과제연구\\final_report_outputs\\closure_analysis\\ensemble_validation.png"
+  }
+}
